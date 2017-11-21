@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
+
+
         btnAdd3PointTeamA = (Button) findViewById(R.id.btnAdd3PointTeamA);
         btnAdd3PointTeamA.setOnClickListener(this);
 
