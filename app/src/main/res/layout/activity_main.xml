@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.edwinformacionsena.MainActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+
+                android:id="@+id/llHorizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/tvNameEquipoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tvMarcadorEquipoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"
+        />
+
+
+    <Button
+        android:id="@+id/btnAdd3PointTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+3 Puntos"
+        />
+    <Button
+        android:id="@+id/btnAdd2PointTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2 Puntos"
+        />
+
+    <Button
+        android:id="@+id/btnAdd1PointTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1 Punto"
+        />
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/tvNameEquipoB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team B"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tvMarcadorEquipoB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"
+        />
+
+
+    <Button
+        android:id="@+id/btnAdd3PointTeamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+3 Puntos"
+        />
+    <Button
+        android:id="@+id/btnAdd2PointTeamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2 Puntos"
+        />
+
+    <Button
+        android:id="@+id/btnAdd1PointTeamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1 Punto"
+        />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/btnReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Reset" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
